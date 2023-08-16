@@ -1,0 +1,98 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+body{
+    
+    padding-top: 60px;
+    padding-left: 60px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+
+}
+/* .card */
+
+.card {
+
+    background-color: #FFFFFF;
+    color: #000;
+    border:  1px solid #DBB9B9;
+    width: 420px;
+    padding: 20px 40px 50px;
+    text-align: center;
+    
+
+}
+
+.card-img {
+
+    margin-bottom: 30px;
+
+
+}
+
+.card-title{
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #CD2626;
+}
+
+.card-text {
+    margin-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    line-height: 1.5;
+
+}
+
+.card-text a {
+    
+     color:#BD3030;
+     text-decoration: underline;
+
+}
+
+.price {
+
+    font-size: 26px;
+    margin-bottom: 30px;
+
+}
+
+.price span {
+
+    font-weight: 700;
+}
+
+.button {
+    
+    background-color:  #CD2626;
+    color: #fff;
+    border-radius: 8px;
+    padding: 16px 42px 17px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+
+    transition:
+    background-color 0.2s ease-in,
+     color 0.2s ease-in,
+     border 0.2s ease-in;
+
+}
+.button:hover, .button:focus {
+
+    background-color: #E41919;
+   
+}
+
+.button:active {
+
+    position: relative;
+    top: 1px;
+    background-color:#8E1010;
+    color: #F1C9C9;
+}
+
